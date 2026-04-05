@@ -5,7 +5,7 @@ import io
 st.set_page_config(page_title="EcoScan AI", layout="wide")
 st.title("♻EcoScan: Real-Time Waste Detection")
 
-model_path = r'C:\Users\BHAVESH\PycharmProjects\sign_language\.venv\runs\detect\waste_sorter_final3\weights\best.pt'
+model_path = 'best.pt'
 
 
 @st.cache_resource
