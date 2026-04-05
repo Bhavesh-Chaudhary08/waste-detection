@@ -1,5 +1,9 @@
+import os
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
+
 import streamlit as st
 from ultralytics import YOLO
+
 from PIL import Image
 import io
 st.set_page_config(page_title="EcoScan AI", layout="wide")
